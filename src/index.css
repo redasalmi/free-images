@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navBackImage {
+    background-image: url("/nature.jpg");
+    background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+img,
+.search-btn {
+    cursor: pointer;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.mainTitle:hover,
+.github:hover,
+.pixabay:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.pixabay {
+    color: rgb(252, 0, 126);
+}
+
+.pixabay:hover {
+    text-decoration: none !important;
 }

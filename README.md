@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Free Images 
+A website to browse for free images and download them, found at: [https://freeimages.netlify.com/](https://freeimages.netlify.com/)
 
-## Available Scripts
+## Built With
+- React
+- Bootstrap
+- axios
+- Pixabay API to fetch images, found at: [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Cloning & Installation
+If you want to run this project on your computer, first you'll need a **pixabay api key**. To do this, just go to the pixabay site at this address [https://pixabay.com/service/about/api/](https://pixabay.com/service/about/api/) and create an account and you'll get your free api key automaticly.
+To clone this project and start it, open a terminal and follow this steps:
+```
+	git clone https://github.com/redasalmi/it-books.git
+	cd it-books
+```
+At this step you need to create a file named "**.env**" at the root of your project, and put your api key inside of it as follows:
+```
+    REACT_APP_API_KEY=[your_api_key]
+```
+Just replace [your_api_key] with your own pixabay api key, then resume with the installation.
+```
+	npm install
+	npm start
+```
+**Note:**
+* ```npm install``` will install all the dependencies needed to run the project on your computer.
+* ```npm start``` will open your default browser and start the website on your localhost.
