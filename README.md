@@ -1,5 +1,5 @@
 # Free Images 
-A website to browse for free images and download them, found at: [https://freeimages.netlify.com/](https://freeimages.netlify.com/)
+A website to browse for free images and download them, found at: [https://freeimg.netlify.com/](https://freeimg.netlify.com/)
 
 ## Built With
 - React
