@@ -11,8 +11,8 @@ A website to browse for free images and download them, found at: [https://freeim
 If you want to run this project on your computer, first you'll need a **pixabay api key**. To do this, just go to the pixabay site at this address [https://pixabay.com/service/about/api/](https://pixabay.com/service/about/api/) and create an account and you'll get your free api key automaticly.
 To clone this project and start it, open a terminal and follow this steps:
 ```
-	git clone https://github.com/redasalmi/it-books.git
-	cd it-books
+	git clone https://github.com/redasalmi/free-images.git
+	cd free-images
 ```
 At this step you need to create a file named "**.env**" at the root of your project, and put your api key inside of it as follows:
 ```

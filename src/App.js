@@ -1,10 +1,8 @@
-import React from 'react';
-import ImageSearch from './components/ImageSearch';
+import React from "react";
+import ImageSearch from "./components/ImageSearch";
 
 function App() {
-    return (
-        <ImageSearch />
-    );
+  return <ImageSearch />;
 }
 
 export default App;

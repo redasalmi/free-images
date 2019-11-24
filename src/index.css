@@ -1,27 +1,46 @@
 .navBackImage {
-    background-image: url("/nature.jpg");
-    background-size: cover;
+  background-image: url("/nature.jpg");
+  background-size: cover;
 }
 
 img,
 .search-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .small-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .mainTitle:hover,
 .github:hover,
 .pixabay:hover {
-    color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .pixabay {
-    color: rgb(252, 0, 126);
+  color: rgb(252, 0, 126);
 }
 
 .pixabay:hover {
-    text-decoration: none !important;
+  text-decoration: none !important;
+}
+
+.pixa-container {
+  padding-left: 0 !important;
+  height: 400px;
+}
+
+.pixa-img {
+  height: 380px !important;
+  min-width: 100% !important;
+}
+
+@media only screen and (max-width: 360px) {
+  .pixa-container {
+    height: 280px !important;
+  }
+  .pixa-img {
+    height: 260px !important;
+  }
 }
