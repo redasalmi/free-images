@@ -3,6 +3,7 @@ A website to browse for free images and download them, found at: [https://freeim
 
 ## Built With
 - React
+- redux, react-redux, redux-thunk
 - Bootstrap
 - axios
 - Pixabay API to fetch images, found at: [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
