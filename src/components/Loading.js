@@ -2,7 +2,6 @@ import React from "react";
 import { Row } from "reactstrap";
 
 const Loading = ({ modal = false }) => {
-  console.log(modal);
   return (
     <div className="container m-2 text-center">
       <Row>
