@@ -1,8 +1,14 @@
 import React from "react";
-import ImageSearch from "./components/ImageSearch";
+import NavBar from "./components/NavBar";
+import ImagesList from "./components/ImagesList";
 
 function App() {
-  return <ImageSearch />;
+  return (
+    <div>
+      <NavBar />
+      <ImagesList />
+    </div>
+  );
 }
 
 export default App;

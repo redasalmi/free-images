@@ -36,6 +36,19 @@ img,
   min-width: 100% !important;
 }
 
+.modal-header,
+.fa-cloud-download-alt,
+button.close > span {
+  color: white !important;
+}
+
+.modal-header,
+.modal-content,
+.modal-body {
+  background-color: transparent !important;
+  border: none !important;
+}
+
 @media only screen and (max-width: 360px) {
   .pixa-container {
     height: 280px !important;

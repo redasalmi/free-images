@@ -1,5 +1,7 @@
 import React from "react";
 import { DropdownItem } from "reactstrap";
+import { useDispatch } from "react-redux";
+import { setImageCategorie } from "../actions/fetchImages";
 
 const categorieList = [
   "all categories",
@@ -25,16 +27,18 @@ const categorieList = [
   "music"
 ];
 
-const CategorieDropdown = ({ setCategorie }) =>
-  categorieList.map(categorie => (
+const CategorieDropdown = () => {
+  const dispatch = useDispatch();
+  return categorieList.map(categorie => (
     <DropdownItem
       value={categorie}
       key={categorie}
-      onClick={event => setCategorie(event.target.value)}
+      onClick={event => dispatch(setImageCategorie(event.target.value))}
       className="text-capitalize small-text"
     >
       {categorie}
     </DropdownItem>
   ));
+};
 
 export default CategorieDropdown;
